@@ -22,11 +22,10 @@ import {Component} from '@angular/core';
         <button [ngClass]="{ btn:true, 'btn-primary':true }" type="submit" (click)="submit()">Button</button>
 
         <button (click)="toggleStyles()">Toggle State</button>
-        
+
         <p>Obtaining the CSS classes from the component method:</p>
         <button [ngClass]="calculateClasses()" (click)="submit()">Button</button>
-        
-        
+
         <hr>
         <h2>ngStyle Examples</h2>
         
@@ -41,13 +40,11 @@ import {Component} from '@angular/core';
 
         <p>Obtaining the styles from the component method:</p>
         <button [ngStyle]="calculateStyles()" (click)="submit()">Button</button>        
-        
-        
+
     `,
     styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-
 
     stateFlag = false;
 
