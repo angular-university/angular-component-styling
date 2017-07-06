@@ -2,6 +2,7 @@ import {Component} from '@angular/core';
 
 @Component({
     selector: 'app-root',
+    styleUrls:['./app.component.css'],
     template: `
 
         <h2>ngClass Examples</h2>
@@ -10,7 +11,7 @@ import {Component} from '@angular/core';
         <button class="btn btn-primary" type="submit" (click)="submit()">Button</button>
 
         <p>Equivalent example:</p>
-        <button class="btn" [class.btn-primary]="true" type="submit" (click)="submit()">Button</button>
+        <button class="btn" [class.btn-primary]="true" type="submit" (click)="submit()">Button</button> 
 
         <p>Passing an Array of classes:</p>
         <button [ngClass]="['btn', 'btn-primary']" type="submit" (click)="submit()">Button</button>
@@ -38,11 +39,17 @@ import {Component} from '@angular/core';
         <p>Passing an object:</p>
         <button [ngStyle]="{background: 'red'}" type="submit" (click)="submit()">Button</button>
 
-        <p>Obtaining the styles from the component method:</p>
-        <button [ngStyle]="calculateStyles()" (click)="submit()">Button</button>        
+        <p>Obtaining the styles from a component method:</p>
+        <button [ngStyle]="calculateStyles()" (click)="submit()">Button</button> 
+        
+        <hr>
+        <h2>Component Style Isolation example</h2>
+        
+        <button class="red-button">Button</button>
+        
+        <blue-button></blue-button>
 
-    `,
-    styleUrls: ['./app.component.css']
+    `
 })
 export class AppComponent {
 
