@@ -48,6 +48,13 @@ import {Component} from '@angular/core';
         <button class="red-button">Button</button>
         
         <blue-button></blue-button>
+        
+        <div class="blue-theme">
+            
+            <themeable-button></themeable-button>
+            
+        </div>
+        
 
     `
 })

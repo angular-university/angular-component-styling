@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { BlueButtonComponent } from './blue-button/blue-button.component';
+import { ThemeableButtonComponent } from './themeable-button/themeable-button.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BlueButtonComponent
+    BlueButtonComponent,
+    ThemeableButtonComponent
   ],
   imports: [
     BrowserModule
