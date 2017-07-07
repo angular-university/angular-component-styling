@@ -11,6 +11,11 @@ import { Component, OnInit } from '@angular/core';
       .blue-button {
           background:blue;
       }
+      
+      :host {
+          border: 2px solid red;
+          display: block;
+      }
   `]
 })
 export class BlueButtonComponent  {
