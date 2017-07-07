@@ -9,6 +9,7 @@
     padding: 20px;
 }
 
-:host h2 {
+:host /deep/ h2 {
     color: red;
 }
+
