@@ -2,3 +2,13 @@
 .red-button {
     background:red;
 }
+
+:host {
+    border: 2px solid dimgray;
+    display: block;
+    padding: 20px;
+}
+
+:host h2 {
+    color: red;
+}
