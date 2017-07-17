@@ -2,7 +2,7 @@
 
 This is the support code for the following blog post:
 
-[Angular Component Styling Complete Guide - ngClass, ngStyle, :host, :host-context, /deep/, Style Debugging](http://blog.angular-university.io/angular-ngclass-ngstyle/)
+[Angular Component Styling Complete Guide - ngClass, ngStyle, :host, :host-context, ::ng-deep, Style Debugging](http://blog.angular-university.io/angular-ngclass-ngstyle/)
 
 ## Summary
 In this post, we are going to learn the many options that we have available for styling our Angular components.
@@ -23,7 +23,7 @@ This post will cover the following topics:
 - Debugging Angular Styles
 - The :host modifier, when to use it and why
 - The :host-context modifier, common use cases for theming
-- The /deep/ modifier - common use cases (and upcoming deprecation)
+- The ::ng-deep modifier - common use cases (and upcoming deprecation)
 - How To style projected content
 - Angular CLI CSS Preprocessors support - Sass, Less and Stylus
 - How can we use Sass to improve our styles
