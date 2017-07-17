@@ -9,7 +9,7 @@
     padding: 20px;
 }
 
-:host /deep/ h2 {
+:host ::ng-deep h2 {
     color: red;
 }
 
